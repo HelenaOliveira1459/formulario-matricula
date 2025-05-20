@@ -1,0 +1,35 @@
+aside{
+  max-width: 624px;
+  padding: 64px;
+  max-height: 848px;
+  background-color: var(--surface-secondary);
+
+  & .aside-container{
+    display: grid;
+    gap: 10px;
+    .title-aside{
+      display:flex;
+      align-items: center;
+      justify-items: center;
+      gap: 8px;
+
+      img{width: 32px;}
+      h3{font:var(--title-school);}
+    }
+    .descricao-aside{
+      display: grid;
+      gap: 10px;
+
+      h1{font: var(--heading-1);}
+      strong{
+        font-weight: 600;
+        color: var(--text-highlight);
+      }
+      p{color:var(--text-secondary); }
+    }
+    .image-aside{
+      padding-top: 32px;
+      
+    }
+  }
+}

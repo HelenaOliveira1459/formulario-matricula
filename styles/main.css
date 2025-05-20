@@ -1,0 +1,178 @@
+.main-container{}
+
+fieldset{
+  border: none;
+}
+.voltar{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  img{width: 24px;}
+  span{
+    font: var(--paragraph);
+    color: var(--text-secondary);
+    
+  }
+}
+.header-matricula{
+  display: grid;
+  padding-top: 24px;
+  gap: 8px;
+  h1{
+    font: var(--heading-2);
+    color: var(--text-primary);
+  }
+  p{
+    font: var(--paragraph);
+    color: var(--text-secondary);
+  }
+  
+}
+
+.dados-crianca{
+  display: grid;
+  padding-top: 48px;
+}
+
+.child-info{
+  display: grid;
+  gap: 24px;
+}
+
+.input-wrapper{
+  display: grid;
+  padding-top: 24px;
+  label{
+    font: var(--paragraph);
+    color: var(--text-secondary);
+  }
+  input{
+    border-radius: 10px;
+    padding: 16px 12px;
+  }
+}
+
+.input-wrapper-gender{
+   display: grid;
+  padding-top: 24px;
+  label{
+    font: var(--paragraph);
+    color: var(--text-secondary);
+  }
+  select{
+    padding: 16px 12px;
+    border-radius: 10px;
+  }
+}
+
+.text-area{
+  display: grid;
+  label{
+    font: var(--paragraph);
+    color: var(--text-secondary);
+  }
+
+  textarea{
+    display: flex;
+    border-radius: 10px;
+  }
+}
+
+.droparea-wrapper{
+  display: grid;
+  label{font: var(--paragraph); color: var(--text-secondary);}
+  gap: .5rem;
+  
+
+  .upload{
+    display: grid;
+    width: 528px;
+    height: 188px;
+    border: 3px dashed var(--stroke-default);
+    border-radius: 10px;
+    text-align: center;
+    position: relative; 
+    align-content: center;
+    justify-items: center;
+    
+    img{
+      width: 48px;
+      color: #A8A29E;
+    }
+    input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0%;
+    opacity: 0; 
+  }
+    p{
+     font: var(--paragraph); 
+     color: #A8A29E;
+    }
+  }
+
+  
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  outline: .25rem solid var(--surface-secondary);
+  border: .125rem solid var(--stroke-hightlight);
+}
+
+input[type="date"]{
+  position: relative;
+&::-webkit-calendar-picker-indicator{
+  display: none;
+}
+}
+
+.endereco{
+  padding-block: 48px;
+  display: grid;
+  h3{
+    font-family: var(--font-family-pop);
+    font-size: 16px/120%;
+    color: var(--text-primary);
+  }
+}
+
+.input-wrapper-rua{
+ display: flex;
+ gap: 8px;
+ 
+  label{   
+    
+    font: var(--paragraph);
+    color: var(--text-secondary);
+    
+  }
+  
+
+  .campo1{
+    input{
+    display: grid;
+    border-radius: 10px;
+    padding: 16px 12px;
+    width: 332px;}
+  }
+
+  .campo2{
+    input{
+    display: grid;
+    border-radius: 10px;
+    padding: 16px 12px;
+    width: 176px;
+  }
+  }
+}
+
+
+
+
+
+
+
+
