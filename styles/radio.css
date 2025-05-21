@@ -27,7 +27,7 @@ label + .radio-wrapper{
   }
 
   .radio-image{
-    background-image: url(/ASSETS/ICONS/circle.png);
+    background-image: url(ASSETS/ICONS/circle.png);
 
     width: 1.4rem;
     height: 1.4rem;
@@ -40,13 +40,13 @@ label + .radio-wrapper{
   &:hover, &:focus-within{
     border: 1px solid var(--stroke-highlight);
     & .radio-image{
-      background-image: url(/ASSETS/ICONS/circleorange.png);
+      background-image: url(ASSETS/ICONS/circleorange.png);
     }
   }
 
   &:has(:checked){
     border: 2px solid var(--stroke-highlight);
     & .radio-image{
-    background-image: url(/ASSETS/ICONS/checkmark-circle-01.png);}
+    background-image: url(ASSETS/ICONS/checkmark-circle-01.png);}
   }
 }
