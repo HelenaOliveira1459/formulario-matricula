@@ -50,6 +50,11 @@ fieldset{
     border-radius: 10px;
     padding: 16px 12px;
   }
+
+  p{
+   font: var(--paragraph);
+   color: var(--text-secondary); 
+  }
 }
 
 .input-wrapper-gender{
@@ -169,7 +174,23 @@ input[type="date"]{
   }
 }
 
+.enroll-option{
+  padding-top:48px;
+  h3{
+    display: grid; 
+    font-family: var(--font-family-pop);    
+    color: var(--text-primary);
+  }
+}
 
+.dados-responsavel{
+  padding-block:48px;
+  h3{
+    display: grid; 
+    font-family: var(--font-family-pop);    
+    color: var(--text-primary);
+  }
+}
 
 
 

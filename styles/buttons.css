@@ -1,0 +1,25 @@
+.actions-wrapper{
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: end;
+
+  button{
+  all: unset;
+  font-weight: 500;
+  color: var(--text-highlight);
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+
+  &.btn-primary{
+    color: white;
+    background-color: var(--brand-dark);
+  }
+  &.btn-secondary{
+    border: 1px solid var(--text-highlight);
+  }
+ 
+}
+}
+
