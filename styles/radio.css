@@ -27,7 +27,7 @@ label + .radio-wrapper{
   }
 
   .radio-image{
-    background-image: url(/ASSETS/ICONS/circle.png);
+    background-image: url(./ASSETS/ICONS/circle.png);
 
     width: 1.4rem;
     height: 1.4rem;
